@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigator"
+    app:startDestination="@id/setNameFrag">
+
+    <fragment
+        android:id="@+id/setNameFrag"
+        android:name="com.carpa.android_simpleviewmodel_morexml.set_name.SetNameFrag"
+        android:label="SetNameFrag"
+        tools:layout="@layout/fragment_set_name">
+        <action
+            android:id="@+id/action_setNameFrag_to_displayNameFrag"
+            app:destination="@id/displayNameFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/displayNameFrag"
+        android:name="com.carpa.android_simpleviewmodel_morexml.display_name.DisplayNameFrag"
+        android:label="DisplayNameFrag">
+        <argument
+            android:name="name_val"
+            app:argType="string" />
+    </fragment>
+</navigation>

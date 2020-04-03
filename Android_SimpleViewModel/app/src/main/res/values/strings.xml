@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android_simpleViewModel</string>
+
+    <string name="set_name">set name</string>
+    <string name="set">Set</string>
+    <string name="your_name_is">Your name is %s</string>
+    <string name="go_to_next_fragment">Go to next fragment</string>
+    <string name="no_name">No name</string>
+    <string name="select_a_name">Select a name</string>
+</resources>
