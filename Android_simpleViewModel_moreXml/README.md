@@ -7,7 +7,7 @@ Here I try to show how it could be implemented: it is a rather simple example, b
 ## Important notes
 In the second fragment the ViewModel is really not needed, but it gives e the opportunity to show how to properly instanciate a viewModel using a constructor with parameters.\
 It is important to know that if the app is killed in background or is definitly closed, the viewModel will be destroyed as well, and along with it our data.\ 
-##References
-https://developer.android.com/jetpack/docs/guide\
-https://proandroiddev.com/mvvm-architecture-viewmodel-and-livedata-part-1-604f50cda1\
+## References
+https://developer.android.com/jetpack/docs/guide \
+https://proandroiddev.com/mvvm-architecture-viewmodel-and-livedata-part-1-604f50cda1 \
 https://developer.android.com/topic/libraries/data-binding/expressions
